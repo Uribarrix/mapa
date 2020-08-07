@@ -6,6 +6,7 @@ Este mapa HTML da guerra en Siria foi creado en catro pasos.
 
 1- Creación dun contorno de Siria dende a unión dos polígonos que forman o nível administrativo 4 (provincial) de Siria. Descargados mediante a seguinte petición na API overpassTurbo:
 
+'''html
 <osm-script output="xml" timeout="25">
     <id-query {{geocodeArea:syria}} into="area_0"/>
     <union>
@@ -28,6 +29,7 @@ Este mapa HTML da guerra en Siria foi creado en catro pasos.
     </union>
     <print mode="meta"/><!-- fixed by auto repair -->
 </osm-script>
+'''
 
 2- Atopouse múltiple documentación, superpoñer varios mapas e adicionar máis información non cartográfica, elaborouse un mapa cada 4 meses entre Xaneiro 2012 e Xaneiro 2018. Empregando QGIS 3.4 para xeorreferenciar os mapas dispoñíbles, dixitalizando os mesmos e dividindo o polígono de siria nos territorios dominados polos diferentes contendentes.
 
