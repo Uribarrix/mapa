@@ -2,6 +2,8 @@
 
 Pódese ver o mapa HTML da guerra Siria con TimeStampedGeoJSON en:
 https://uribarrix.github.io/mapa
+(Pode que algunha imaxe ou vídeo teña desaparecido o cambiado o enlazamento e non sexa amosada)
+
 
 Este mapa HTML da guerra en Siria foi creado en catro pasos.
 
